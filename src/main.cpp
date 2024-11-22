@@ -1,41 +1,41 @@
  #include <Arduino.h>
  #include <WiFi.h>
 // -------------------------------------Acender o led---------------------------------------
-// Define LED
-//  int LED = 2;
-// Check if the LED is working
-//  void setup() {
-//    pinMode(LED,OUTPUT);
-//  }
-// LED turn on and turn off
-//  void loop() {
-//    digitalWrite(LED,HIGH);
-//    delay(1000);
-//    digitalWrite(LED,LOW);
-//    delay(1000);
-//  }
+// // //Define LED
+// // int LED = 2;
+// // //Check if the LED is working
+// // void setup() {
+// //   pinMode(LED,OUTPUT);
+// // }
+// // //LED turn on and turn off
+// // void loop() {
+// //   digitalWrite(LED,HIGH);
+// //   delay(1000);
+// //   digitalWrite(LED,LOW);
+// //   delay(1000);
+// // }
 // -------------------------------------END ----------------------------------------------------------
 
 
 // -------------------------------------Código para piscar 3 vezes e parar---------------------------------------
-//  Define LED
+// // Define LED
 // int LED = 2;
-//  Variável para contar o número de piscadas
+// // Variável para contar o número de piscadas
 // int blinkCount = 0;
-//  Configuração inicial
+// // Configuração inicial
 // void setup() {
 //   pinMode(LED, OUTPUT);
 // }
-//  Loop principal
+// // Loop principal
 // void loop() {
 //   if (blinkCount < 3) {
-//     Liga o LED
+//     // Liga o LED
 //     digitalWrite(LED, HIGH);
 //     delay(1000);
-//     Desliga o LED
+//     // Desliga o LED
 //     digitalWrite(LED, LOW);
 //     delay(1000);
-//      Incrementa o contador de piscadas
+//     // Incrementa o contador de piscadas
 //     blinkCount++;
 //   } else {
 //     // Para o loop
@@ -84,4 +84,5 @@
 //     button1.pressed = false;
 //   }
 // }
-//  -------------------------------------END ----------------------------------------------------------
+// // -------------------------------------END ----------------------------------------------------------
+
